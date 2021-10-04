@@ -1,0 +1,212 @@
+/*  fonts import */
+
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+
+    /* css for all */
+    *{
+        background-color: black;
+        text-decoration: grey;
+    }
+    
+
+/* unrequired */
+
+/* div{
+display: block;
+overflow: auto;
+width: 75%;
+border: 2px solid black;
+margin: 10px auto; */
+
+
+/* for all div in index */
+
+div{width: 60%;
+text-align: center;
+border-radius: 30px;
+padding: 10px;
+margin: auto auto;
+position: relative;
+color: grey;
+}
+
+/* for the logo img */
+
+#img{
+display: block;
+width: 30rem;
+border: 2px solid goldenrod;
+border-radius: 20rem;
+padding: 40px;
+margin: auto ;
+}
+
+/* for all navigation menu */
+
+.navbar {
+display: inline-block;
+width: 35em;
+height: 7em;
+border: 0.02em solid goldenrod;
+border-radius: 2em;
+}
+
+.navbar li {
+display: inline-block;
+font-size: 25px;
+margin-top: 1.5em;
+}
+
+.navbar li a {
+color: white;
+text-decoration: none;
+padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+text-decoration: none;
+color: grey;
+
+}
+
+/* .introduction{
+text-decoration: grey;
+border: 1px solid blue;
+display: block;
+align-items: center;
+margin-top: 40px;
+margin-bottom: 40px;
+padding: 0px;
+font-family: 'Ubuntu', sans-serif;
+font-size: large;
+text-align: center; */
+
+
+/* for the random image in the index */
+
+#img1{
+display: block;
+border: 0.2em solid goldenrod;
+border-radius: 00.4em;
+margin: auto;
+
+}
+
+/* For about us */
+
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#about{
+    display: block;
+    width: 60rem;
+    height: 30rem;
+    justify-content: top;
+    margin: auto;
+    margin-bottom: 2rem;
+    position: relative;
+    font-size: 2rem;
+
+}
+
+#aboutus{
+    border: 2px solid goldenrod;
+    display: block;
+    font-size: 1.7rem;
+    height: 25rem;
+    color :grey;
+    border-radius: 001.4rem;
+    padding-top: 40px;
+
+}
+
+#aboutustitle{
+    display:flex ;
+    border: 2px solid goldenrod ;
+    width: 15%;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 00.4rem ;
+    color: white;
+}
+
+/* heading of the blog */
+#blog{
+    display:flex ;
+    border: 2px solid goldenrod ;
+    width: 15%;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 00.4rem ;
+    color: white;
+    font-size: 2.1rem;
+    margin-top: 60px;
+}
+
+
+
+.heading{
+    border: 2px solid goldenrod;
+    color: white;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+
+/* 
+content of the blog */
+.para{
+    width: 100%;
+    color: grey;
+    font-size: 1.5rem;
+    
+}
+
+#contactus{
+    display:flex ;
+    border: 2px solid goldenrod ;
+    width: 25%;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 00.4rem ;
+    color: white;
+    font-size: 2.1rem;
+}
+
+
+
+/* for copyright issues */
+
+footer{
+display: block;
+width: 1200;
+height: 800;
+margin: auto;
+text-align: center;
+
+}
+
+/* insta icon */
+
+.contact img{
+    width: 7rem;
+}
+
+
+
+    
+/* end of document */
