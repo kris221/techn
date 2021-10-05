@@ -1,0 +1,129 @@
+*{
+	font-family: ubuntu;
+}
+
+							/* head */
+#logo{
+    border: 2px solid goldenrod;
+    border-radius: 10rem;
+    margin: auto;
+    float: none;
+}
+
+
+.head{
+	user-select: none;
+	position: relative;
+	top: -6px;
+	font-size: 16px;
+}
+.nav{
+	position: relative;
+    float: left;
+	top: -5px;
+    width: 70%;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+.head H1{
+	position: relative;
+	left: 10px;
+}
+.nav a{
+	padding: 2px;
+	margin: 10px;
+	border: solid white 0px;
+	text-decoration: none;
+	color: black;
+}
+.nav a:hover {
+	position: relative;
+	border: solid black;
+	padding-bottom: 4px;
+	transition: 0.1s;
+	border-width: 0px 0px 2px 0px;
+}
+
+/* color red to present working page */
+#current_pge{
+	color: red;
+}
+					/* End of head */
+						/* Body */
+
+.body{
+	position: relative;
+	top: 6vw;
+    
+} 
+
+
+#top_icon:active {
+	box-shadow: 0px 0px 8px #000;
+}
+
+.body_content{
+	position: relative;
+	top: 16vw;
+	background: whitesmoke;
+	padding: 10px;
+	border: solid 0px;
+	border-radius: 20px;
+    
+
+}
+
+/* Other cards */
+/* Aboutus */
+.aboutus{
+	border: solid 0px;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0px 0px 4px #000;
+	background: white;
+	margin: auto;
+}
+.aboutus p{
+	padding: 0px 20px 0px 20px;
+	font-size: 20px;
+    
+}
+.aboutus h2{
+	position: relative;
+	left: -20px;
+    width: 94px;
+}
+/* Blogs */
+.blogs{
+	border: solid 0px;
+	border-radius: 10px;
+	padding: 10px;
+	/* margin: 80px;
+	margin-right: 10px; */
+	box-shadow: 0px 0px 4px #000;
+	background: white;
+	margin: auto;
+	margin-top: 5rem;
+}
+.blogs p{
+	font-size: 20px;
+	padding: 0px 20px 0px 20px;
+}
+#blog_heading{
+	font-size: 22px;
+}
+.blogs h2{
+	position: relative;
+	left: -20px;
+}
+
+.footer{
+	position: relative;
+	top: 220px;
+	height: 20px;
+	padding: 10px;
+	font-size: 16px;
+	margin-top: 5rem;
+	border-top: 2px solid black;
+}	
+
